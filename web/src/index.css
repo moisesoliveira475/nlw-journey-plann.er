@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  min-width: 0;
+}
+
+input {
+  color-scheme: dark;
+}
+
+.rdp-chevron {
+  fill: #87ad47
+}
+
+td[data-today="true"] > button{
+  border: 1px solid #87ad47;
+  border-radius: 100%;
+  color: #a2ff00;
+}
+
+.rdp-today:not(.rdp-outside) {
+  color: #ffffff;
+  
+}
+
+.rdp-day_button[aria-label*="selected"] {
+  background-color: #87ad47;
+  border: 1px solid #87ad47;
+  border-radius: 100%
+}
+
+.rdp-range_start {
+  background: #18181b;
+}
+
+.rdp-range_end {
+  background: #18181b;
+}
+  
+.rdp-range_middle {
+  background-color: #18181b;
+}
+
